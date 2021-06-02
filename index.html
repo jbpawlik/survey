@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All About You</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Take this survey to tell us all about you*!</h1>
+      <form id="demographics">
+        <div class="form-group">
+          <label for="fullname">Full Name</label>
+          <input id="fullname" class="form=control" type="text">
+        </div>
+        <button type="submit" class=btn>Submit your name</button>
+        <div id="output"></div>
+      </form>
+      <div class="mood">
+        <h3>What is your mood like today?</h3>
+        <select class="form-control" id="mood">
+          <option>Happy</option>
+          <option>Sad</option>
+          <option>Enraged</option>
+          <option>Blase</option>
+        </select>
+      </div>
+      <div id="historicalfigure">
+        <h3>Who is your favorite historical figure?</h3>
+        <form id="historicalfigure">
+          <div class="radio">
+            <label>
+              <input type="radio" name="roykroc" checked>Roy Kroc
+            </label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="bezos">Jeff Bezos
+            </label>
+          <div class="radio">
+            <label>
+                <input type="radio" name="wendy">Wendy from Wendy's
+            </label>
+        </form>
+      </div>
+    </div>
+    <h6>*Data may be used for marketing purposes</h6>
+</div>
+</body>
+</html>
