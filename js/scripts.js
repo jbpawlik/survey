@@ -14,3 +14,4 @@ $(document).ready(function() {
 const beverage = $("#mood").val();
 
 const flavor = $("input:radio[name=flavor]:checked").val();
+
